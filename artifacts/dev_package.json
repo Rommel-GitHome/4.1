@@ -1,0 +1,66 @@
+{
+	"id": "00991d6e-ac2a-ec11-ae72-dc9840105a9f",
+	"createdAt": "2021-10-11T16:01:02.190Z",
+	"createdBy": "tester",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/Rommel-GitHome/4.1.git",
+		"testServers": [
+			{
+				"url": "https://github.com/Rommel-GitHome/4.1.git",
+				"token": "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"
+			}
+		],
+		"branch": "4.1"
+	},
+	"name": "HMS-2",
+	"description": null,
+	"ver": "21.10.20.958",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "7cace43c-5572-4378-af23-c88b09365606",
+			"ver": "21.10.22.144",
+			"application": "bug2110",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [],
+	"odataMock": [],
+	"odataSource": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [
+		{
+			"id": "86f61b30-09f1-43e6-85a0-ae534f00f258",
+			"application": "copy_v2",
+			"description": "",
+			"ver": "21.10.26.2121"
+		},
+		{
+			"id": "7da65073-4af6-468f-b6f2-a35d84edf954",
+			"application": "copy_v2",
+			"description": "",
+			"ver": "21.10.26.2121"
+		}
+	],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"wf_definition": [],
+	"department": [],
+	"script_scheduler": [],
+	"connector": []
+}

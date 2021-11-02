@@ -1,0 +1,45 @@
+{
+	"id": "7da65073-4af6-468f-b6f2-a35d84edf954",
+	"createdAt": "2021-10-20T08:06:25.257Z",
+	"createdBy": "testcafe",
+	"interface": [],
+	"objects": [
+		{
+			"fieldNo": "68006f34-584b-46d6-b005-d94ca74360d1",
+			"fieldName": "Settings",
+			"fieldParent": 0,
+			"fieldPos": 1,
+			"fieldType": "neptune.pdf.settings",
+			"fieldDescription": "PDF Settings",
+			"attributes": []
+		},
+		{
+			"fieldNo": "3a5ad478-eac1-43c6-c6f8-49172c840f6d",
+			"fieldName": "Content",
+			"fieldParent": 0,
+			"fieldPos": 2,
+			"fieldType": "neptune.pdf.content",
+			"fieldDescription": "Main PDF content area ",
+			"attributes": []
+		},
+		{
+			"fieldNo": "a4a81945-c261-4e48-de90-6b97f8097e39",
+			"fieldName": "Styles",
+			"fieldParent": 0,
+			"fieldPos": 3,
+			"fieldType": "neptune.pdf.styles",
+			"fieldDescription": "Define your custom styles and assign to objects",
+			"attributes": []
+		}
+	],
+	"application": "copy_v2",
+	"description": "",
+	"status": "Active",
+	"disabled": false,
+	"ver": "21.10.26.2121",
+	"publicAccess": false,
+	"enableStorage": false,
+	"dd": "dd = {'content': [],'styles': {}}",
+	"testdata": "",
+	"package": "00991d6e-ac2a-ec11-ae72-dc9840105a9f"
+}

@@ -1,9 +1,9 @@
 {
 	"id": "7cace43c-5572-4378-af23-c88b09365606",
 	"createdAt": "2021-10-19T20:51:12.829Z",
-	"updatedAt": "2021-10-20T09:53:04.549Z",
+	"updatedAt": "2021-10-22T12:04:06.861Z",
 	"createdBy": "testcafe",
-	"changedBy": "testcafe",
+	"changedBy": "svein.gunnar.larsen@neptune-software.com",
 	"objects": [
 		{
 			"fieldNo": "1",
@@ -80,14 +80,14 @@
 													"value": "Anonymous Function",
 													"script": [
 														"==OBJECT STRING==",
-														"if (typeof TRANS_ID === \"undefined\" || TRANS_ID === null || TRANS_ID === \"\") { return; }  \r",
-														"var formattedText = TRANS_ID; \r",
-														"if (TRANS_ID === '1' || TRANS_ID ==='3' || TRANS_ID ==='5') {\r",
-														"   formattedText = 'Odd';\r",
-														"} else {\r",
-														"    formattedText = 'Even';\r",
-														"}\r",
-														"return formattedText;"
+														"// if (typeof TRANS_ID === \"undefined\" || TRANS_ID === null || TRANS_ID === \"\") { return; }  \r",
+														"// var formattedText = TRANS_ID; \r",
+														"// if (TRANS_ID === '1' || TRANS_ID ==='3' || TRANS_ID ==='5') {\r",
+														"//    formattedText = 'Odd';\r",
+														"// } else {\r",
+														"//     formattedText = 'Even';\r",
+														"// }\r",
+														"// return formattedText;"
 													],
 													"translation": []
 												}
@@ -216,14 +216,14 @@
 			"data": []
 		}
 	],
-	"ver": "21.10.20.1153",
+	"ver": "21.10.22.144",
 	"application": "bug2110",
 	"title": "",
 	"description": "",
 	"enableFileStorage": false,
 	"enableManifest": false,
 	"enableStylesheet": false,
-	"enableObfuscate": true,
+	"enableObfuscate": false,
 	"onlyRunLaunchpad": false,
 	"disabled": false,
 	"loadLaunchpadCode": null,
